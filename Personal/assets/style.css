@@ -1,24 +1,36 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.container-fluid {
+    background-color: aqua;
+}
+
 h1 {
     color: #d40655;
 }
 
-.row {
-    background-color: orange;
-    border: 3px solid brown;
-    padding: 5px;
-    margin: 10px;
+body {
+    min-height: 100vh;
+    display: flex;
 }
 
-.columna {
-    color: aquamarine;
-    font-size: 25px;
-    background-color: blue;
-    border: 5px solid white;
+body {
+    min-height: 100vh;
+    display: flex;
 }
-
-.col {
-    background-color: #d40655;
-    color:aliceblue;
-    font-size: 50px;
-    border: 2px solid darkred;
+.navbar-lateral {
+    position: fixed; /* Fija la barra lateral */
+    top: 0;
+    left: 0;
+    height: 100%; /* Ocupar todo el alto de la pantalla */
+    width: 250px; /* Ancho de la barra lateral */
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    padding-top: 20px;
+}
+.content {
+    margin-left: 250px; /* Dejar espacio a la izquierda para la barra */
+    padding: 20px;
+    width: calc(100% - 250px); /* Ajustar el ancho al contenido */
 }
