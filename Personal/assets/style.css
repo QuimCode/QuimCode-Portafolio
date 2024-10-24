@@ -2,11 +2,14 @@
     box-sizing: content-box;
 }
 
-.container-fluid {
-    background-color: aqua;
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(38, 22, 53); /* Fondo negro */
+    color: white; /* Texto blanco para que sea legible */
 }
 
-h1 {
+h4 {
     color: #d40655;
 }
 
@@ -25,7 +28,7 @@ body {
     left: 0;
     height: 100%; /* Ocupar todo el alto de la pantalla */
     width: 250px; /* Ancho de la barra lateral */
-    background-color: #f8f9fa;
+    background-color: #090835;
     border-right: 1px solid #ddd;
     padding-top: 20px;
 }
