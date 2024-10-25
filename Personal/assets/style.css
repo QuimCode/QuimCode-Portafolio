@@ -5,35 +5,57 @@
 body {
     min-height: 100vh;
     display: flex;
-    background-color: rgb(38, 22, 53); /* Fondo negro */
-    color: white; /* Texto blanco para que sea legible */
+    background-color: rgb(38, 22, 53);
+    /* Fondo negro */
+    color: white;
+    /* Texto blanco para que sea legible */
 }
 
-h4 {
-    color: #d40655;
+/* -------------NAVBAR STYLES------------- */
+
+/* PORTATIL */
+@media (min-width: 768px) {
+    .navegacionMovil * {
+        display: none;
+    }
+
+    .navbar-lateral {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 250px;
+        background-color: #333;
+        color: white;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-body {
-    min-height: 100vh;
-    display: flex;
-}
+/* MOBILE */
+@media (max-width: 767px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
 
-body {
-    min-height: 100vh;
-    display: flex;
-}
-.navbar-lateral {
-    position: fixed; /* Fija la barra lateral */
-    top: 0;
-    left: 0;
-    height: 100%; /* Ocupar todo el alto de la pantalla */
-    width: 250px; /* Ancho de la barra lateral */
-    background-color: #090835;
-    border-right: 1px solid #ddd;
-    padding-top: 20px;
-}
-.content {
-    margin-left: 250px; /* Dejar espacio a la izquierda para la barra */
-    padding: 20px;
-    width: calc(100% - 250px); /* Ajustar el ancho al contenido */
+    .navegacionPortatil * {
+        display: none;
+    }
+
+    .navbar-top {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #333;
+        color: white;
+        z-index: 1000;
+    }
+
+    .navbar-brand {
+        color: aliceblue;
+    }
 }
