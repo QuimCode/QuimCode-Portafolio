@@ -21,24 +21,68 @@
 </head>
 
 <body>
-  <!-- LATERAL HEADER -->
-  <section class="Lateral-Bar">
-    <nav class="navbar-lateral d-flex flex-column p-3">
-      <h4>QuimCode Portafolio</h4>
-      <hr>
-      <ul class="nav flex-column">
-          <li class="nav-item">
+
+<!-- Barra de navegación lateral para monitores -->
+<section class="navegacionPortatil">
+  <nav class="navbar-lateral d-flex flex-column p-3">
+    <h1>QuimCode</h1>
+    <hr>
+    <ul class="nav flex-column">
+        <li class="nav-item">
             <a class="nav-link" href="#projects">Proyectos</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#contact">Contacto</a>
-          </li>
-      </ul>
-    </nav>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+        </li>
+    </ul>
+  </nav>
+</section>
+
+<!-- Barra de navegación superior para dispositivos móviles -->
+<section class="navegacionMovil">
+  <nav class="navbar navbar-expand-md navbar-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">QuimCode</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+</section>
+
+<!-- Contenido principal
+<div class="content">
+  <section id="projects" style="margin-top: 80px;">
+      <h2>Proyectos</h2>
+      <p>Contenido de Proyectos.</p>
   </section>
+
+  <section id="about" class="mt-5">
+      <h2>Sobre mí</h2>
+      <p>Contenido de Sobre mí.</p>
+  </section>
+
+  <section id="contact" class="mt-5">
+      <h2>Contacto</h2>
+      <p>Contenido de Contacto.</p>
+  </section>
+</div> -->
 </body>
 
 </html>
