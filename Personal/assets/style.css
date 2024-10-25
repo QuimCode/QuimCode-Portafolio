@@ -31,6 +31,32 @@ body {
         display: flex;
         flex-direction: column;
     }
+
+    .nav-item {
+        display: flex;
+        justify-content: center; /* Centrado horizontal */
+        align-items: center;    /* Centrado vertical */
+    }
+
+    .separadorSuperior {
+        margin-bottom: 150px;
+    }
+
+    .pixelImg {
+        display: flex;
+        justify-content: center; /* Centrado horizontal */
+        align-items: center;    /* Centrado vertical */
+        height: 100px; /* Un valor de altura si necesitas centrar verticalmente */
+    }
+
+    .separadorInferior {
+        margin-top: 25px;
+    }
+
+    .pixelIcon {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 /* MOBILE */
