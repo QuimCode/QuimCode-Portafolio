@@ -8,7 +8,8 @@
   <title>Portfolio - Quimey Fontan</title>
   <meta name="author" content="Quimey Alejo Fontan">
   <meta name="description" content="Portafolio Desarrolador Quimey Fontan">
-  <meta name="keywords" content="Desarrolador, Backend, Frontend, Quimey Alejo Fontan, Quimey, Alejo, CSS, HTML, JavaScript, TypeScript, Python, QuimCode">
+  <meta name="keywords"
+    content="Desarrolador, Backend, Frontend, Quimey Alejo Fontan, Quimey, Alejo, CSS, HTML, JavaScript, TypeScript, Python, QuimCode">
 
   <!-- BOOSTRAP CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -22,71 +23,160 @@
 
 <body>
 
-<!-- Barra de navegación lateral para monitores -->
-<section class="navegacionPortatil">
-  <nav class="navbar-lateral d-flex flex-column p-3">
-    <h1 class="nav-item">QuimCode</h1>
-    <hr class="separadorSuperior">
-    <div class="pixelImg">
-      <img class="pixelIcon" src="assets/img/PixelHead.png">
-    </div>
-    <hr class="separadorInferior">
-    <ul class="nav flex-column">
+  <!-- Barra de navegación lateral para monitores -->
+  <section class="navegacionPortatil">
+    <nav class="navbar-lateral d-flex flex-column p-3">
+      <h1 class="nav-item">QuimCode</h1>
+      <hr class="separadorSuperior">
+      <div class="pixelImg">
+        <img class="pixelIcon" src="assets/img/PixelHead.png">
+      </div>
+      <hr class="separadorInferior">
+      <ul class="nav flex-column">
         <li class="nav-item">
-            <a class="nav-link" href="#projects">Proyectos</a>
+          <a class="btn btn-outline-info mb-2" href="#projects">Proyectos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about">Sobre mí</a>
+          <a class="btn btn-outline-info mb-2" aria-current="page" href="#about">Sobre mí</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
+          <a class="btn btn-outline-info mb-2" href="#contact">Contacto</a>
         </li>
-    </ul>
-  </nav>
-</section>
+      </ul>
+    </nav>
+  </section>
 
-<!-- Barra de navegación superior para dispositivos móviles -->
-<section class="navegacionMovil">
-  <nav class="navbar navbar-expand-md navbar-top">
-    <div class="container-fluid">
+  <!-- Barra de navegación superior para dispositivos móviles -->
+  <section class="navegacionMovil">
+    <nav class="navbar navbar-expand-md navbar-top">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">QuimCode</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">Sobre mí</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contacto</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Contenido principal -->
+
+  <div class="container-fluid mt-10 content">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <section id="projects">
+          <h2>Proyectos</h2>
+          <p>Contenido de Proyectos.</p>
+        </section>
+      </div>
+
+      <!-- Fila de tarjetas -->
+      <div class="row justify-content-center">
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fila de tarjetas -->
+      <div class="row justify-content-center">
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 text-center">
+          <section id="about">
+            <h2>Sobre mí</h2>
+            <p>Contenido de Sobre mí.</p>
+          </section>
+        </div>
+        <div class="col-md-12 text-center">
+          <section id="contact">
+            <h2>Contacto</h2>
+            <p>Contenido de Contacto.</p>
+          </section>
+        </div>
+      </div>
     </div>
-  </nav>
-</section>
 
-<!-- Contenido principal
-<div class="content">
-  <section id="projects" style="margin-top: 80px;">
-      <h2>Proyectos</h2>
-      <p>Contenido de Proyectos.</p>
-  </section>
-
-  <section id="about" class="mt-5">
-      <h2>Sobre mí</h2>
-      <p>Contenido de Sobre mí.</p>
-  </section>
-
-  <section id="contact" class="mt-5">
-      <h2>Contacto</h2>
-      <p>Contenido de Contacto.</p>
-  </section>
-</div> -->
 </body>
 
 </html>
