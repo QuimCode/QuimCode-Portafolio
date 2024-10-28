@@ -51,6 +51,7 @@ body {
 
     .separadorInferior {
         margin-top: 25px;
+        margin-bottom: 35px;
     }
 
     .pixelIcon {
@@ -84,4 +85,10 @@ body {
     .navbar-brand {
         color: aliceblue;
     }
+}
+
+.content {
+    margin-left: 290px; /* Ajusta este valor según el ancho de tu navbar */
+    position: relative;
+    z-index: 1;
 }
