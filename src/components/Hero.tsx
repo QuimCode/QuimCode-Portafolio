@@ -19,13 +19,13 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
             <span className="bg-gradient-to-r from-blue-400 to-emerald-400 text-transparent bg-clip-text">
-              Hello, I'm
+              Holla, Soy
             </span>
-            <span className="block mt-2">Your Name</span>
+            <span className="block mt-2">Quimey</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
-            Full Stack Developer crafting beautiful & functional web experiences
+            Estudiante y Desarrollador IT, creador de bellas & funcionales experiencias web.
           </p>
 
           <div className="flex items-center justify-center gap-6 mb-12">
