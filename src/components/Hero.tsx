@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
             <span className="bg-gradient-to-r from-blue-400 to-emerald-400 text-transparent bg-clip-text">
-              Holla, Soy
+              Hola, Soy
             </span>
             <span className="block mt-2">Quimey</span>
           </h1>
