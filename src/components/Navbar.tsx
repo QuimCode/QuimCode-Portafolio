@@ -14,22 +14,26 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${
+    <nav className={`fixed w-full z-50 transition-all duration-300  ${
       isScrolled ? 'bg-black/80 backdrop-blur-sm py-4' : 'bg-transparent py-6'
     }`}>
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between">
           <a href="#" className="text-2xl font-bold text-white">
-            Portfolio
+            Portfolio Desarrollador
+          </a>
+
+          <a href="#" className="text-2xl font-bold text-white">
+            Portfolio Grafico
           </a>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          {/* <div className="hidden md:flex items-center space-x-8">
             <NavLink href="#about">About</NavLink>
             <NavLink href="#projects">Projects</NavLink>
             <NavLink href="#skills">Skills</NavLink>
             <NavLink href="#contact">Contact</NavLink>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button 
